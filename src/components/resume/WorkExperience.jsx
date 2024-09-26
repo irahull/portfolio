@@ -2,7 +2,7 @@ const WorkExperience = [
   {
     id: 1,
     title: "Frontend Developer",
-    company: "Pitch Cats Tech Private Limited",
+    company: "PitchCats Tech Private Limited",
     yearsActive: "November 2023 - Present",
     information: [
       "Utilized React and JavaScript to create visually appealing and responsive web pages, meeting client requirements and enhancing user experience.",
@@ -17,7 +17,7 @@ const WorkExperience = [
     id: 2,
     title: "React Developer",
     company: "Rentainance",
-    yearsActive: "January 2023 - November 2023",
+    yearsActive: "March 2023 - November 2023",
     information: [
       "Collaborated with cross-functional teams to seamlessly integrate APIs, enhancing data flow within applications and improving overall functionality.",
       "Developed reusable components, reducing development timelines by 30% and improving code quality and maintainability.",

@@ -29,8 +29,11 @@
 
 .home__socials {
   display: flex;
-  column-gap: 1.75rem;
-  margin: 1.5rem 0;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  /* column-gap: 1.75rem; */
+  margin: 1.2rem 0;
 }
 
 .home__social-link {

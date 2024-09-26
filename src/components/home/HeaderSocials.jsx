@@ -1,6 +1,7 @@
 import React from 'react';
-import { FaGithub, FaFacebookF, FaLinkedinIn, FaTwitter, FaDev } from 'react-icons/fa';
-import { SiHashnode } from 'react-icons/si'
+import { FaGithub, FaFacebookF, FaLinkedinIn, FaTwitter, FaDev, FaInstagram  } from 'react-icons/fa';
+import { MdOutlineEmail } from "react-icons/md";
+
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -16,28 +17,29 @@ const HeaderSocials = () => {
     });
     return (
         <div className='home__socials'>
-            <a href='https://www.github.com/GregSithole' className='home__social-link' target='_blank' rel='noreferrer'>
+            <a href='https://www.github.com/irahull' className='home__social-link' target='_blank' rel='noreferrer'>
                 <FaGithub />
             </a>
 
-            <a href='https://hashnode.com/@gregsithole' className='home__social-link' target='_blank' rel='noreferrer'>
+            {/* <a href='https://hashnode.com/@gregsithole' className='home__social-link' target='_blank' rel='noreferrer'>
                 <SiHashnode />
+            </a> */}
+
+            <a href="mailto:irahull@outlook.com" className='home__social-link' target='_blank' rel='noreferrer'>
+            <MdOutlineEmail />
+
             </a>
 
-            <a href='https://dev.to/gregsithole' className='home__social-link' target='_blank' rel='noreferrer'>
-                <FaDev />
-            </a>
-
-            <a href='https://www.linkedin.com/in/greg-sithole-b6350558/' className='home__social-link' target='_blank' rel='noreferrer'>
+            <a href='https://www.linkedin.com/in/irahull/' className='home__social-link' target='_blank' rel='noreferrer'>
                 <FaLinkedinIn />
             </a>
 
-            <a href='https://wwww.facebook.com/Greg.Sithole' className='home__social-link' target='_blank' rel='noreferrer'>
-                <FaFacebookF />
+            <a href='https://www.instagram.com/_irahull_/' className='home__social-link' target='_blank' rel='noreferrer'>
+            <FaInstagram />
             </a>
 
-            <a href='https://www.twitter.com/GregSithole' className='home__social-link' target='__blank' rel='noreferrer'>
-                <FaTwitter />
+            <a href='https://x.com/_irahull_/' className='home__social-link' target='__blank' rel='noreferrer'>
+            <FaTwitter/>
             </a>
         </div>
     );
