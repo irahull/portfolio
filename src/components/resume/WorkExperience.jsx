@@ -17,7 +17,7 @@ const WorkExperience = [
     id: 2,
     title: "React Developer",
     company: "Rentainance",
-    yearsActive: "March 2023 - November 2023",
+    yearsActive: "Dec 2022 - November 2023",
     information: [
       "Collaborated with cross-functional teams to seamlessly integrate APIs, enhancing data flow within applications and improving overall functionality.",
       "Developed reusable components, reducing development timelines by 30% and improving code quality and maintainability.",
@@ -28,7 +28,7 @@ const WorkExperience = [
     id: 3,
     title: "Wordpress Developer",
     company: "SimbaQuartz",
-    yearsActive: "July 2022 - December 2022",
+    yearsActive: "July 2022 - Nov 2022",
     information: [
       "Developed customized e-commerce solutions for online businesses using WooCommerce plugin integration, ensuring seamless functionality and meeting specific design requirements.",
       "Installed and configured required plugins and implemented additional coding to achieve the desired design and functionality of WordPress websites",

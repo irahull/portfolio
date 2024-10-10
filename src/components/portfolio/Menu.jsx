@@ -4,37 +4,38 @@ import Work3 from "../../assets/travel.png";
 import Work4 from "../../assets/blog-1.svg";
 
 const Menu = [
-	{
-		id: 1,
-		image: Work1,
-		title: "React Native Jobs App",
-		category: ["Frontend", "React"],
-		repositoryUrl: "https://github.com/GregSithole/react-native-jobs"
-	},
-	{
-		id: 2,
-		image: Work2,
-		title: "Cryptoverse",
-		category: ["Frontend", "React"],
-		url: "https://cryptoverse.gregsithole.com",
-		repositoryUrl: "https://github.com/GregSithole/crypto-app"
-	},
-	{
-		id: 3,
-		image: Work3,
-		title: "Travel Advisor",
-		category: ["Frontend"],
-		url: "https://travel.gregsithole.com",
-		repositoryUrl: "https://github.com/GregSithole/travel-advisor"
-	},
-	{
-		id: 4,
-		image: Work4,
-		title: "Wallhaven CLI",
-		category: ["Backend"],
-		url: "https://www.npmjs.com/package/wallhaven-cli",
-		repositoryUrl: "https://github.com/GregSithole/wallhaven-cli"
-	}
+  {
+    id: 1,
+    image: Work1,
+    title: "Relocate WebApp ",
+    category: ["Frontend"],
+    url: "https://relocate-web-app.vercel.app",
+    repositoryUrl: "https://github.com/irahull/relocate-webApp",
+  },
+  {
+    id: 2,
+    image: Work2,
+    title: "Admin Dashboard",
+    category: ["Frontend"],
+    url: "https://myadmin-dashboard-project.vercel.app/",
+    repositoryUrl: "https://github.com/irahull/admin-dashboard",
+  },
+  {
+    id: 3,
+    image: Work3,
+    title: "Shopping Cart Functionality",
+    category: ["Frontend"],
+    url: "https://shopping-cart-functionality.vercel.app/",
+    repositoryUrl: "https://github.com/irahull/shopping-cart-functionality",
+  },
+  {
+    id: 4,
+    image: Work4,
+    title: "Reale-state Mern App",
+    category: ["Mern"],
+    url: "https://realestate-frontend-kuzk.onrender.com",
+    repositoryUrl: "https://github.com/irahull/realestate-mern-app",
+  },
 ];
 
 export default Menu;

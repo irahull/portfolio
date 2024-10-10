@@ -37,7 +37,7 @@ function App() {
         {/* <Services /> */}
         <Resume />
         <Skills />
-        {/* <Portfolio /> */}
+        <Portfolio />
         {/* <Testimonials /> */}
         {/* <Blog /> */}
         <Contact theme={theme} />
